@@ -32,8 +32,8 @@ while playing == True:
     else:
         print("Fout!")
 
-    final_Question = input("Do you want to play again")   
-    if final_Question == "Yes" or final_Question == 'yes':
+    final_Question = input("Wil je opnieuw spelen?")   
+    if final_Question == "Ja" or final_Question == 'ja':
         playing = True
     else:
         break
