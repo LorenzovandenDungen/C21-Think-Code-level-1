@@ -1,14 +1,14 @@
 print("welkom bij mijn quiz")
-username = input("Gebruikersnaam? : ")
-print("hey",username, "\nLaten we beginnen! Met ieder goed beantwoorde vraag krijg je een punt.")
+gebruikersnaam = input("Gebruikersnaam? : ")
+print("hey",gebruikersnaam, "\nLaten we beginnen! Met ieder goed beantwoorde vraag krijg je een punt.")
 
 playing = True
 while playing == True:
     points = 0
 
     print("Hoe oud ben ik?")
-    Answer_1 = input("Vul hier in: ")
-    if Answer_1 == "19" or Answer_1 == "19":
+    Antwoord_1 = input("Vul hier in: ")
+    if Antwoord_1 == "19" or Antwoord_1 == "19":
         print("Correct!")
         points +=1
     else:
@@ -16,8 +16,8 @@ while playing == True:
 
 
     print("Zijn bananen krom?")
-    Answer_2 = input("Vul hier in: ")
-    if Answer_2 == "ja" or Answer_1 == "Ja":
+    Antwoord_2 = input("Vul hier in: ")
+    if Antwoord_2 == "ja" or Antwoord_2 == "Ja":
         print("Correct!")
         points +=1
     else:
@@ -25,15 +25,15 @@ while playing == True:
 
 
     print("is sporten gezond?")
-    Answer_3 = input("Vul hier in: ")
-    if Answer_3 == "ja" or Answer_1 == "Ja":
+    Antwoord_3 = input("Vul hier in: ")
+    if Antwoord_3 == "ja" or Antwoord_3 == "Ja":
         print("Correct!")
         points +=1
     else:
         print("Fout!")
 
-    final_Question = input("Wil je opnieuw spelen?")   
-    if final_Question == "Ja" or final_Question == 'ja':
+    Laatste_vraag = input("Wil je opnieuw spelen?")   
+    if Laatste_vraag == "Ja" or Laatste_vraag == 'ja':
         playing = True
     else:
         break
