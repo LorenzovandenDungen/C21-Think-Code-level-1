@@ -1,6 +1,6 @@
 print("welkom bij mijn quiz")
-gebruikersnaam = input("Gebruikersnaam? : ")
-print("hey",gebruikersnaam, "\nLaten we beginnen! Met ieder goed beantwoorde vraag krijg je een punt.")
+Gebruikersnaam = input("Gebruikersnaam? : ")
+print("hey",Gebruikersnaam, "\nLaten we beginnen! Met ieder goed beantwoorde vraag krijg je een punt.")
 
 playing = True
 while playing == True:
